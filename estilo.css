@@ -1,5 +1,5 @@
 body {
-  background: pink;
+  background: rgb(167, 202, 52);
 }
 h1 {
   text-align: center;
@@ -15,4 +15,11 @@ h1 {
    height: 200px;
    background: #AABBBB;
    left: 50px;
+}
+.menuPrincipal {
+  position: absolute; 
+  background: rgba(55, 236, 98, 0.418);
+  width: 100%;
+  height: 100px;
+  top: 0;
 }
