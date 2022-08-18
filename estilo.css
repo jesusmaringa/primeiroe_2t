@@ -1,5 +1,7 @@
 body {
   background: rgb(220, 224, 205);
+  margin: 0;
+  padding: 0;
 }
 h1 {
   text-align: center;
@@ -64,13 +66,12 @@ li a:hover {
    height: 80px;
 }
 .rodape {
-   position: absolute;
+   position: relative;
+   bottom: 0;
    width: 100%;
    height: 50px;
    color: rgb(255, 255, 255);
    background: rgb(0, 0, 0);
-   left: 0;
-   bottom: 0;
    display: flex;
    justify-content: center;
 }
@@ -81,6 +82,16 @@ li a:hover {
 .logoGastao {
   position: absolute;
   right: 0;
-  top: 45px;
-  
+  top: 0px;
+  z-index: 999;
+}
+#logo {
+   width: 100px;
+   height:100px;
+}
+.conteudo {
+   position: absolute;
+   top: 45px;
+   background: azure;
+   width: 100%;
 }
